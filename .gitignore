@@ -1,6 +1,6 @@
 # Idea files
 .idea
-sandbox.iml.iml
+*.iml
 atlassian-ide-plugin.xml
 #
 # Created by .gitignore support plugin (hsz.mobi)
