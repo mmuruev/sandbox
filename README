@@ -1,3 +1,14 @@
 Sandbox project for java samples testing purposes
 
 import org.apache.commons.lang.builder.ReflectionToStringBuilder; // for print object in console
+
+This is not real project. It just for java experiments.
+Provide something like var_dump() from php for java in toString() Possible run by
+
+$ mvn exec:exec 
+
+or through bash script
+
+$ ./mvnrun.sh
+
+NOTE: script MUST BE run from project "root" dir otherwise script will be useless
