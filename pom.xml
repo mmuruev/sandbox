@@ -10,6 +10,8 @@
     <properties>
         <!-- JVM -->
         <jdk.version>1.8</jdk.version>
+        <!-- Spring Framework -->
+        <spring.version>4.1.0.RELEASE</spring.version>
         <!-- Apache.commons -->
         <org-apache-commons.version>3.3.2</org-apache-commons.version>
         <!-- Builder -->
@@ -22,6 +24,13 @@
         <junit.version>4.8.2</junit.version>
     </properties>
     <dependencies>
+        <!-- Spring Framework -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- Apache.commons -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
